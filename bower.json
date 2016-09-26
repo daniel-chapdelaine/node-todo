@@ -1,0 +1,17 @@
+{
+  "name": "node-todo",
+  "description": "",
+  "main": "server/server.js",
+  "authors": [
+    "Joseph Daniel Chapdelaine <orvist@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/DanielC2008/node-todo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
