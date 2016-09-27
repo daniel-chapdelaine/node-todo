@@ -4,10 +4,11 @@
   "description": "",
   "main": "server/server.js",
   "dependencies": {
-    "bower": "^1.7.9",
     "express": "^4.14.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "bower": "^1.7.9"
+  },
   "scripts": {
     "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
