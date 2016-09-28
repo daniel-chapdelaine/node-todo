@@ -1,0 +1,23 @@
+{
+  "name": "node-todo",
+  "description": "",
+  "main": "server/server.js",
+  "authors": [
+    "Joseph Daniel Chapdelaine <orvist@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/DanielC2008/node-todo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "jquery": "1.9.1",
+    "angular-route": "^1.5.8"
+  }
+}
