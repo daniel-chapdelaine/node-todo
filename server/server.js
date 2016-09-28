@@ -8,4 +8,8 @@ const PORT = process.env.PORT || 3000
 
 app.use(express.static('client'))
 
+app.get('/api/title', (req, res) => {
+	res.json({title: 'Node ToDo from server!'})
+})
+
 app.listen(PORT, console.log(`You are listening on port: ${PORT}`))

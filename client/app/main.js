@@ -2,6 +2,8 @@
 
 angular
 	.module('MeanToDo', [])
-	.controller('main', function($scope){
-		$scope.title = 'This is a ToDo App!'
+	.controller('main', function($scope, $http){
+		$http.get('/api/title')
+		.then(({data:{title}}) =>
+			$scope.title = title)
 	})
